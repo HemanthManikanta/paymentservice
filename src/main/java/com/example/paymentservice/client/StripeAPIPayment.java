@@ -16,7 +16,7 @@ public class StripeAPIPayment implements PaymentGateWay {
     @Override
     public String getPaymentLink(PaymentDto paymentDto) throws StripeException {
 
-        Stripe.apiKey = "sk_test_51POuAAP59fYSgeyJ6NjvL4j1xsmdRpAJ8dMFRDw1SIlLKDxfi7FP0zXW0OI1DOXrDMCpJ94XupumsKyuQbSxCQ1l00nnDAeknj";
+        Stripe.apiKey = "sk_test_5****j";
 
         PaymentLinkCreateParams params =
                 PaymentLinkCreateParams.builder()
